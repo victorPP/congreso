@@ -12,5 +12,5 @@ class persona(models.Model):
 
 		def __unicode__(self):
 
-				nombreCompleto = "%s %s" %(self.nombre, sellf.apeidos)
+				nombreCompleto = "%s %s" %(self.nombre, self.apeidos)
 					return nombreCompleto
